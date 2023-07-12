@@ -10,7 +10,8 @@ header {
 }
 
 body {
-    background-color: rgb(248, 206, 129);
+    background-color: rgb(155, 201, 201);
+    opacity: 1;
 }
 
 h2 {
@@ -19,6 +20,10 @@ h2 {
 
 h3 {
     font-size: small;
+}
+
+.imagen-index {
+    margin-left: 10px;
 }
 
 .container {
@@ -38,14 +43,14 @@ h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 26px;
+    margin-right: 26px;
 }
 
 .card {
     position: static;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    max-width: 260px;
+    max-width: 246px;
     margin: auto;
     text-align: center;
     font-family: Arial;
@@ -79,10 +84,10 @@ h3 {
 
 .modal-container{
     width: 80%;
-    margin: 0 6%;
+    margin: 16px 6%;
     max-height: 88vh;
     color: black;
-    background-color: #fdb343;
+    background-color: #79bec7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,9 +103,10 @@ h3 {
 }
 
 .modal-header {
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
-    background-color: #e7890d;
+    background-color: #1a7279;
     color: #fff;
     width: 80%;
 }
@@ -163,4 +169,5 @@ h3 {
     cursor: pointer;
     background-color: black;
     color: white;
+    margin-bottom: 10px;
 }

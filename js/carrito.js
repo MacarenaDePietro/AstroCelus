@@ -82,7 +82,7 @@ const pintarCarrito =()=> {
             }
         }).then(() => {
         carrito.length = 0;
-        localStorage.removeItem('modal-container');
+        localStorage.removeItem('carro');
         pintarCarrito();
         carritoCounter(); 
         });
